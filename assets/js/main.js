@@ -164,15 +164,21 @@ if (heroSection) {
 }
 
 // ---------- THEME TOGGLE ----------
-document.addEventListener('DOMContentLoaded', () => {
-  const themeToggle = document.querySelector('.theme-toggle');
-  if (!themeToggle) return;
+const themeToggle = document.querySelector('.theme-toggle');
 
+function updateThemeIcon() {
+  const isLight = document.body.classList.contains('theme-light');
+  themeToggle.textContent = isLight ? '☼' : '☾';
+  themeToggle.classList.toggle('is-on', isLight);
+}
+
+if (themeToggle) {
+  // clic sur le bouton
   themeToggle.addEventListener('click', () => {
-    const isLight = document.body.classList.toggle('theme-light');
-    themeToggle.classList.toggle('is-on', isLight);
-    themeToggle.textContent = isLight ? '☼' : '☾';   // change l'icône
+    document.body.classList.toggle('theme-light');
+    updateThemeIcon();
   });
-});
-  });
+
+  // état initial au chargement
+  updateThemeIcon();
 }
