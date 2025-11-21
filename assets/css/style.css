@@ -203,11 +203,12 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 0.82rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
-    color: var(--text-muted);
-    margin-bottom: 40px;
+    color: #f5f5f7;
+    margin-bottom: 32px;
+    opacity: 0.9;
 }
 
 .hero-btn {
