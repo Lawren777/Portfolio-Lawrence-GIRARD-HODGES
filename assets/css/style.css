@@ -812,48 +812,74 @@ body {
 }
 
 body.theme-light {
-    /* fond global clair mais coloré */
-    background: radial-gradient(circle at 8% 0%, #f4e2ff 0, #f7e7ff 35%, #f0f4ff 80%, #e4ecff 100%);
-    color: var(--text-main); /* on garde le texte clair */
+    background: radial-gradient(circle at 8% 0%, #ede2ff 0, #f5e3ff 30%, #e2e8ff 80%, #d6e0ff 100%);
+    color: #111118; /* texte global plus sombre pour la lisibilité */
 }
 
-body.theme-light .site-header {
-    background: linear-gradient(to bottom, #ffffffcc, #ffffff00);
+body.theme-light .site-header::before {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.85), rgba(255,255,255,0));
+}
+
+body.theme-light .logo {
+    color: #111118;
+    border-color: rgba(0,0,0,0.08);
 }
 
 body.theme-light .hero {
     background-image:
-        radial-gradient(circle at 20% 0%, #f4d3ff 0, #fbe4ff 38%, #e8efff 78%);
+        background-image: radial-gradient(circle at top, #e3d0ff 0, #f1dcff 35%, #dde5ff 80%);
+}
+
+body.theme-light .hero-role,
+body.theme-light .hero-subtitle {
+    color: #2f3145;
 }
 
 body.theme-light .section,
 body.theme-light .section-artist,
 body.theme-light .section-contact {
-    background: rgba(255,255,255,0.4);
-    backdrop-filter: blur(10px);
+    background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(240,242,255,0.9));
+    border-radius: 32px;
 }
 
 body.theme-light .portfolio-item {
-    background: linear-gradient(180deg, #ffffffaa, #f0f0ffdd);
-    border-color: rgba(0,0,0,0.06);
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+    background: linear-gradient(180deg, #ffffff, #f1f3ff);
+    border-color: rgba(0,0,0,0.05);
+    box-shadow: 0 14px 36px rgba(15,23,42,0.16);
 }
 
 body.theme-light .portfolio-category {
     color: #6b7280;
 }
 
+body.theme-light .portfolio-meta h3 {
+    color: #111118;
+}
+
+body.theme-light .artist-text,
+body.theme-light .section-contact h2,
+body.theme-light .contact-text,
+body.theme-light .section h2,
+body.theme-light .footer-copy {
+    color: #111118;
+}
+
 body.theme-light .btn-primary {
     color: #111118;
-    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.3);
+    box-shadow: 0 12px 28px rgba(15,23,42,0.28);
 }
 
 body.theme-light .btn-ghost {
-    border-color: rgba(15, 23, 42, 0.18);
+    border-color: rgba(15,23,42,0.26);
     color: #111118;
+    background: rgba(255,255,255,0.7);
 }
 
 body.theme-light .site-footer {
-    background: #dde1ee;
-    border-top-color: rgba(0, 0, 0, 0.08);
+    background: linear-gradient(180deg, #e1e4f5, #d4dbff);
+    border-top-color: rgba(0,0,0,0.08);
+}
+
+body.theme-light .footer-links a {
+    color: #111118;
 }
