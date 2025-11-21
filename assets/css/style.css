@@ -140,8 +140,7 @@ body {
     padding: 0 min(7vw, 80px);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-inline: 8vw;
+    justify-content: center;           /* 🔹 centre horizontalement */
     background-image: radial-gradient(circle at top, #3d2b87 0, #05030a 55%);
     background-attachment: fixed;
     background-position: center top;
