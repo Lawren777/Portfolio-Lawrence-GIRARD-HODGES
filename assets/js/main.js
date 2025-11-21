@@ -138,7 +138,7 @@ window.addEventListener('load', () => {
 });
 
 // ---------- SCROLL REVEAL ----------
-const revealElements = document.querySelectorAll('.reveal, .portfolio-item');
+const revealElements = document.querySelectorAll('.reveal');
 
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
