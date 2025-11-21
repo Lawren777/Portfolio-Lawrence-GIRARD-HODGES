@@ -164,11 +164,15 @@ if (heroSection) {
 }
 
 // ---------- THEME TOGGLE ----------
-const themeToggle = document.querySelector('.theme-toggle');
+document.addEventListener('DOMContentLoaded', () => {
+  const themeToggle = document.querySelector('.theme-toggle');
+  if (!themeToggle) return;
 
-if (themeToggle) {
   themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('theme-light');
-    themeToggle.classList.toggle('is-on');
+    const isLight = document.body.classList.toggle('theme-light');
+    themeToggle.classList.toggle('is-on', isLight);
+    themeToggle.textContent = isLight ? '☼' : '☾';   // change l'icône
+  });
+});
   });
 }
