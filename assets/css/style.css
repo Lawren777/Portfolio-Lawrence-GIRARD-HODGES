@@ -193,15 +193,18 @@ body {
     letter-spacing: 0.22em;
     text-transform: uppercase;
     margin-bottom: 24px;
+    white-space: nowrap;
 }
 
 .hero-title span:first-child {
     display: block;
+    white-space: nowrap;
     font-weight: 300;
 }
 
 .hero-title span:last-child {
     display: block;
+    white-space: nowrap;
     font-weight: 500;
     background: linear-gradient(180deg, #ffffff, #c0c0c0);
     -webkit-background-clip: text;
@@ -812,28 +815,29 @@ body {
 }
 
 body.theme-light {
-    background: radial-gradient(circle at top, #dfe3f1 0, #ced2e0 45%, #c5c9d6 100%);
-    color: #111118;
+    background: radial-gradient(circle at 60% 0%, #f6eaff 0%, #e9ecff 45%, #f5f5f7 100%);
+    color: #1a1a1f;
 }
 
 body.theme-light .site-header {
-    background: rgba(230, 232, 241, 0.96);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom, #ffffffcc, #ffffff00);
 }
 
 body.theme-light .hero {
     background-image: radial-gradient(circle at top, #e1e4f2 0, #d5d8e6 55%);
 }
 
+body.theme-light .section,
 body.theme-light .section-artist,
 body.theme-light .section-contact {
-    background: transparent;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
 }
 
 body.theme-light .portfolio-item {
-    background: #f9fafb;
-    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
-    border-color: rgba(15, 23, 42, 0.04);
+    background: linear-gradient(180deg, #ffffffaa, #f0f0ffdd);
+    border-color: rgba(0,0,0,0.06);
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
 }
 
 body.theme-light .portfolio-category {
