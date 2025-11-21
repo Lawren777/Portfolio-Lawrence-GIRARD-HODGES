@@ -552,10 +552,24 @@ body {
 }
 
 @media (max-width: 520px) {
-    .main-nav {
-        display: none;
+    .hero-title {
+        font-size: 2.4rem;
+        letter-spacing: 0.16em;
     }
 
+    .hero-role {
+        font-size: 0.75rem;
+        letter-spacing: 0.14em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .section {
+        padding-inline: 16px;
+    }
+    
     .portfolio-grid {
         grid-template-columns: minmax(0, 1fr);
     }
