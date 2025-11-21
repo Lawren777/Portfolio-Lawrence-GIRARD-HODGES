@@ -193,16 +193,19 @@ body {
     letter-spacing: 0.22em;
     text-transform: uppercase;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .hero-title span:first-child {
     display: block;
     font-weight: 300;
+    white-space: nowrap;
 }
 
 .hero-title span:last-child {
     display: block;
     font-weight: 500;
+    white-space: nowrap;
     background: linear-gradient(180deg, #ffffff, #c0c0c0);
     -webkit-background-clip: text;
     color: transparent;
