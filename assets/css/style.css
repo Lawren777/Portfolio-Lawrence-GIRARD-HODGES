@@ -140,12 +140,12 @@ body {
     padding: 0 min(7vw, 80px);
     display: flex;
     align-items: center;
-    justify-content: center;           /* 🔹 centre horizontalement */
+    justify-content: center;          /* <-- centre horizontalement */
     background-image: radial-gradient(circle at top, #3d2b87 0, #05030a 55%);
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
-    text-align: center;
+    text-align: center;               /* texte centré */
     position: relative;
     overflow: hidden;
 }
