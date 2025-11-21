@@ -162,3 +162,13 @@ if (heroSection) {
     heroSection.style.backgroundPositionY = `${-offset}px`;
   });
 }
+
+// ---------- THEME TOGGLE ----------
+const themeToggle = document.querySelector('.theme-toggle');
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('theme-light');
+    themeToggle.classList.toggle('is-on');
+  });
+}
