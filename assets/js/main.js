@@ -162,23 +162,3 @@ if (heroSection) {
     heroSection.style.backgroundPositionY = `${-offset}px`;
   });
 }
-
-// ---------- THEME TOGGLE ----------
-const themeToggle = document.querySelector('.theme-toggle');
-
-function updateThemeIcon() {
-  const isLight = document.body.classList.contains('theme-light');
-  themeToggle.textContent = isLight ? '☼' : '☾';
-  themeToggle.classList.toggle('is-on', isLight);
-}
-
-if (themeToggle) {
-  // clic sur le bouton
-  themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('theme-light');
-    updateThemeIcon();
-  });
-
-  // état initial au chargement
-  updateThemeIcon();
-}
