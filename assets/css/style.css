@@ -682,3 +682,60 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ---------- PORTFOLIO CARD HOVER ---------- */
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-xl);
+    background: radial-gradient(circle at top, #18121f 0, #050309 60%);
+    box-shadow: var(--shadow-soft);
+}
+
+.portfolio-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-thumb img,
+.portfolio-thumb video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.portfolio-thumb::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top, rgba(136, 102, 255, 0.25), transparent 55%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio-meta {
+    padding: 1.2rem 1.3rem 1.3rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-thumb img,
+.portfolio-item:hover .portfolio-thumb video {
+    transform: scale(1.06);
+}
+
+.portfolio-item:hover .portfolio-thumb::after {
+    opacity: 1;
+}
+
+.portfolio-item:hover .portfolio-meta {
+    transform: translateY(-2px);
+}
