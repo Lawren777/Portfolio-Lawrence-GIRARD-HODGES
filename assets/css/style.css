@@ -725,24 +725,13 @@ body {
     overflow: hidden;
 }
 
-/* THUMBNAILS — FIX MOBILE (height:auto) */
-.portfolio-thumb img,
-.portfolio-thumb video {
-    display: block;
-    width: 100%;
-    height: auto;          /* <-- IMPORTANT : empêche le bug mobile */
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
+/* PAS de height ici, on utilise les règles du bloc PORTFOLIO */
 
 .portfolio-thumb::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at top,
-        rgba(136, 102, 255, 0.25),
-        transparent 55%
-    );
+    background: radial-gradient(circle at top, rgba(136, 102, 255, 0.25), transparent 55%);
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -752,7 +741,6 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* HOVER EFFECTS */
 .portfolio-item:hover .portfolio-thumb img,
 .portfolio-item:hover .portfolio-thumb video {
     transform: scale(1.06);
