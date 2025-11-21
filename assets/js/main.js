@@ -152,3 +152,13 @@ const revealObserver = new IntersectionObserver((entries) => {
 });
 
 revealElements.forEach(el => revealObserver.observe(el));
+
+// ---------- SIMPLE HERO PARALLAX ----------
+const heroSection = document.querySelector('.hero');
+
+if (heroSection) {
+  window.addEventListener('scroll', () => {
+    const offset = window.scrollY * 0.35;
+    heroSection.style.backgroundPositionY = `${-offset}px`;
+  });
+}
