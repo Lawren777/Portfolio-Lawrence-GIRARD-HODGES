@@ -136,11 +136,16 @@ body {
 
 /* ====== HERO ====== */
 .hero {
-    height: 100vh;
+    min-height: 80vh;
     padding: 0 min(7vw, 80px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-inline: 8vw;
+    background-image: radial-gradient(circle at top, #3d2b87 0, #05030a 55%);
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
     text-align: center;
     position: relative;
     overflow: hidden;
