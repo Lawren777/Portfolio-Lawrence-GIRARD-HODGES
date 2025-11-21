@@ -127,3 +127,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// ---------- PAGE LOADER ----------
+window.addEventListener('load', () => {
+  const loader = document.querySelector('.page-loader');
+  if (loader) {
+    loader.classList.add('is-hidden');
+    setTimeout(() => loader.remove(), 700);
+  }
+});
