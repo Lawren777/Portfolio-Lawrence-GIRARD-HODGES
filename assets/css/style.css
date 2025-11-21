@@ -525,36 +525,16 @@ body {
     color: rgba(245, 245, 247, 0.7);
 }
 
-.footer-links {
-    display: flex;
-    gap: 1.2rem;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
+.footer-top {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.18em;
     font-size: 0.75rem;
-    color: rgba(245, 245, 247, 0.7);
-    position: relative;
+    color: rgba(245, 245, 247, 0.75);
 }
 
-.footer-links a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -0.25rem;
-    width: 100%;
-    height: 1px;
-    background: linear-gradient(90deg, #f563ff, #7a7bff);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.25s ease;
-}
-
-.footer-links a:hover::after {
-    transform: scaleX(1);
+.footer-top:hover {
+    color: #ffffff;
 }
 
 @media (max-width: 640px) {
@@ -720,15 +700,13 @@ body {
 
 /* ---------- SCROLL REVEAL ---------- */
 
-.reveal,
-.portfolio-item {
+.reveal {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.reveal.is-visible,
-.portfolio-item.is-visible {
+.reveal.is-visible {
     opacity: 1;
     transform: translateY(0);
 }
