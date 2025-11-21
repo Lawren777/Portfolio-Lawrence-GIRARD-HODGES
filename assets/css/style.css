@@ -565,15 +565,18 @@ body {
 .lightbox-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(5, 3, 8, 0.92);
+    background: rgba(0, 0, 0, 0.95);
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 60;
+    opacity: 0;
+    transition: opacity 0.25s ease;
 }
 
 .lightbox-overlay.is-open {
     display: flex;
+    opacity: 1;
 }
 
 .lightbox-inner {
@@ -582,7 +585,7 @@ body {
     justify-content: center;
     box-shadow: var(--shadow-soft);
     border-radius: var(--radius-xl);
-    overflow: hidden;
+    overflow: visible;
 }
 
 .lightbox-inner img,
