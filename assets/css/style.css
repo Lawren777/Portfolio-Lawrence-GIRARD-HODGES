@@ -175,6 +175,8 @@ body {
 .hero-content {
     position: relative;
     z-index: 1;
+    max-width: 720px;   /* limite la largeur du texte */
+    margin: 0 auto;     /* centre le bloc dans le hero */
 }
 
 .hero-kicker {
