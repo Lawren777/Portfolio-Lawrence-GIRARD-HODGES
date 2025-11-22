@@ -1,80 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/</loc>
-        <lastmod>2025-11-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <url>
+    <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-    <url>
-        <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/index.html</loc>
-        <lastmod>2025-11-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <url>
+    <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/index.html</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-    <!-- Assets CSS & JS -->
-    <url>
-        <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/assets/css/style.css</loc>
-    </url>
+  <url>
+    <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/assets/css/style.css</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
 
-    <url>
-        <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/assets/js/main.js</loc>
-    </url>
+  <url>
+    <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/assets/js/main.js</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
 
-    <!-- Images -->
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_03.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_03.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_04.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Video_01.mp4</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_CloseUp_03.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_03.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Final_04.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Cthulhu_Char_Video_01.mp4</loc></url>
 
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_04.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_06.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Final_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Final_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Video_01.mp4</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_04.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_CloseUp_06.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Final_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Final_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Char_Video_01.mp4</loc></url>
 
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_03.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_04.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_05.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_06.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_07.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_08.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_09.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_10.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_11.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_03.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_04.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_05.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_06.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_07.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_08.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_09.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_10.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Hellboy_Props_CloseUp_11.jpg</loc></url>
 
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/DarkCorner_Env_Final_Video_02.mp4</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/DarkCorner_Env_Final_Video_02.mp4</loc></url>
 
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_WIP_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_01.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_02.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_03.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_04.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_05.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_06.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_07.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_08.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_09.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_WIP_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_01.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_02.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_03.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_04.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_05.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_06.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_07.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_08.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/Submarine_Vehicles_Final_09.jpg</loc></url>
 
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/portrait-lawrence.jpg</loc></url>
-    <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/favicon.png</loc></url>
-
-    <!-- Future project pages can be added below -->
-    <!-- Example:
-    <url>
-        <loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/projects/cthulhu.html</loc>
-    </url>
-    -->
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/portrait-lawrence.jpg</loc></url>
+  <url><loc>https://lawren777.github.io/Portfolio-Lawrence-GIRARD-HODGES/images/favicon.png</loc></url>
 
 </urlset>
