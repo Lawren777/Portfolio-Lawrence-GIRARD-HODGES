@@ -946,6 +946,40 @@ figure.project-image figcaption {
     }
 }
 
+/* ====== SUBMARINE GRID FIX ====== */
+
+.submarine-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   /* 2 colonnes */
+    gap: 32px;                               /* espace entre images */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.submarine-grid figure {
+    margin: 0;
+}
+
+.submarine-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-xl);
+    display: block;
+    object-fit: cover;
+}
+
+/* supprimer totalement les captions */
+.submarine-grid figcaption {
+    display: none !important;
+}
+
+/* MOBILE : passer en 1 colonne */
+@media (max-width: 820px) {
+    .submarine-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ====== PROJECTS SECTION ====== */
 
 .section-projects {
