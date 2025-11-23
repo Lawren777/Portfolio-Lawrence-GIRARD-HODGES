@@ -146,6 +146,24 @@ window.addEventListener('load', () => {
   }
 });
 
+window.addEventListener('load', () => {
+  const loader = document.querySelector('.page-loader');
+  if (loader) {
+    loader.classList.add('is-hidden');
+    setTimeout(() => loader.remove(), 700);
+  }
+});
+
+// fallback au cas où l’événement load tarde
+setTimeout(() => {
+  const loader = document.querySelector('.page-loader');
+  if (loader) {
+    loader.classList.add('is-hidden');
+    setTimeout(() => loader.remove(), 700);
+  }
+}, 5000);
+
+
 // ---------- SCROLL REVEAL ----------
 const revealElements = document.querySelectorAll('.reveal');
 
