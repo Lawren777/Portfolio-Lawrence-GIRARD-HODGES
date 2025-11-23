@@ -101,16 +101,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Clic sur les cartes du portfolio
-  const portfolioLinks = document.querySelectorAll(".portfolio-link");
-  portfolioLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault(); // évite le scroll vers le haut
-      const item = link.closest(".portfolio-item");
-      if (!item) return;
-      openLightboxFromItem(item);
-    });
+// Clic sur les cartes du portfolio
+const portfolioLinks = document.querySelectorAll(".portfolio-link");
+portfolioLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const href = link.getAttribute("href") || "";
+
+    // Si le lien pointe vers une VRAIE page (bellow-challenger-deep.html, autre URL, etc.)
+    // on laisse le navigateur faire son boulot : pas de lightbox.
+    if (href && href !== "#" && !href.startsWith("#")) {
+      return;
+    }
+
+    // Sinon, on bloque le clic et on ouvre la lightbox
+    event.preventDefault();
+    const item = link.closest(".portfolio-item");
+    if (!item) return;
+    openLightboxFromItem(item);
   });
+});
 
   // Fermeture lightbox
   lightboxClose.addEventListener("click", closeLightbox);
