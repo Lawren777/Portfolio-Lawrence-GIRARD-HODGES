@@ -1150,3 +1150,10 @@ figure.project-image figcaption {
     margin-top: 1.6rem;
 }
 
+.main-nav a.nav-active {
+  color: var(--text-main);
+}
+
+.main-nav a.nav-active::after {
+  width: 100%;
+}
