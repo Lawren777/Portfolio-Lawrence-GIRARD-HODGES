@@ -1175,3 +1175,18 @@ figure.project-image figcaption {
 .cv-download-block {
     margin-top: 24px;
 }
+
+.lang-switch {
+    padding: 4px 10px;
+    margin-left: 12px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.lang-switch:hover {
+    opacity: 1;
+    border-color: white;
+}
