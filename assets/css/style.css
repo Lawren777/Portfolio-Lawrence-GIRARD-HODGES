@@ -173,6 +173,62 @@ body {
     width: 100%;
 }
 
+/* ====== LANG SWITCHER ====== */
+.lang-switcher {
+    display: flex;
+    gap: 8px;
+    margin-left: 24px;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.08);
+    text-decoration: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    opacity: 0.75;
+    transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        color 0.15s ease,
+        opacity 0.15s ease,
+        transform 0.12s ease;
+}
+
+.lang-btn img {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lang-btn:hover {
+    opacity: 1;
+    border-color: rgba(255,255,255,0.3);
+    color: var(--text-main);
+    transform: translateY(-1px);
+}
+
+.lang-btn.lang-current {
+    background: rgba(162,103,255,0.20);
+    border-color: rgba(162,103,255,0.9);
+    color: var(--text-main);
+    opacity: 1;
+}
+
+/* mobile : rapprocher un peu */
+@media (max-width: 720px) {
+    .lang-switcher {
+        margin-left: 12px;
+    }
+}
+
 /* ====== HERO ====== */
 .hero {
     min-height: 80vh;
@@ -1174,19 +1230,4 @@ figure.project-image figcaption {
 
 .cv-download-block {
     margin-top: 24px;
-}
-
-.lang-switch {
-    padding: 4px 10px;
-    margin-left: 12px;
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 4px;
-    font-size: 0.9rem;
-    opacity: 0.8;
-    transition: 0.3s;
-}
-
-.lang-switch:hover {
-    opacity: 1;
-    border-color: white;
 }
