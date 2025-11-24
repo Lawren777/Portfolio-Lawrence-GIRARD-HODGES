@@ -518,10 +518,19 @@ body {
 }
 
 .tools-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     padding: 6px 12px;
     border-radius: 999px;
     border: 1px solid rgba(255,255,255,0.08);
     background: rgba(5,3,8,0.6);
+}
+
+.tool-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 /* ====== CONTACT ====== */
