@@ -1157,3 +1157,7 @@ figure.project-image figcaption {
 .main-nav a.nav-active::after {
   width: 100%;
 }
+
+.artist-actions {
+  margin-top: 24px;
+}
